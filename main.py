@@ -9,6 +9,10 @@ print(f"키 : {height}cm")
 print(f"몸무게 {weight}kg")
 bmi = weight / (height_meter**2)
 if bmi >=25:
-  print(f"bmi지수 : {bmi}. 과체중입니다.)
+  print(f"bmi지수 : {bmi}. 비만입니다.")
 elif bmi>= 23:
-print
+  print(f"bmi지수 : {bmi}. 과체중입니다.")
+elif bmi>=18.5:
+  print(f"bmi지수 : {bmi}. 정상입니다.")
+else:
+  print(f"bmi지수 : {bmi}. 저체중입니다.")
