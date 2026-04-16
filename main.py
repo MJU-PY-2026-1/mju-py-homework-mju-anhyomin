@@ -16,3 +16,5 @@ elif bmi>=18.5:
   print(f"bmi지수 : {bmi}. 정상입니다.")
 else:
   print(f"bmi지수 : {bmi}. 저체중입니다.")
+goal_weight=float(input("목표 체중을 입력해주세요 : "))
+information=[name,weight,height,goal_weight]
