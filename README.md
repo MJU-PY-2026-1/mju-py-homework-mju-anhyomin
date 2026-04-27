@@ -63,7 +63,8 @@ if-elif-else를 사용하여 BMI 등급 판정
     
      
 ### **📁 증빙 자료:**
-  * [2차과제_실행결과.jpg]
+  * [2차과제_실행결과.jpg]<img width="1382" height="780" alt="image" src="https://github.com/user-attachments/assets/22888fd9-2646-42a4-bcfd-afd275b15b4f" />
+
 <br>
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
