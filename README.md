@@ -78,8 +78,7 @@ if-elif-else를 사용하여 BMI 등급 판정
     
 ### **🛠️ Troubleshooting & 기술 회고:**
   1. 문제 1: if문이 while True 반복문 밖으로 빠져 있었다.
-   - 원인:<img width="1438" height="1178" alt="KakaoTalk_20260526_001401212" src="https://github.com/user-attachments/assets/a0f9e9be-1671-4f2f-98c2-4b13f184ec4a" />
- 처음 코드를 작성할 때 메뉴를 입력받는 부분까지만 while True 안에 넣고, 실제 메뉴를 처리하는 if-elif-else문은 반복문 밖에 작성하였다. 그 결과 break와 continue가 반복문 안에서 작동하지 못해 오류가 발생하였다.
+   - 원인:처음 코드를 작성할 때 메뉴를 입력받는 부분까지만 while True 안에 넣고, 실제 메뉴를 처리하는 if-elif-else문은 반복문 밖에 작성하였다. 그 결과 break와 continue가 반복문 안에서 작동하지 못해 오류가 발생하였다.
    - 해결: if menu == "1":부터 else문까지 전체 메뉴 처리 코드를 while True 안쪽으로 들여쓰기 하였다. 이를 통해 사용자가 메뉴를 선택할 때마다 조건문이 반복 실행되도록 수정하였다.
 2. 문제 2: menu 값을 숫자로 비교하여 조건문이 제대로 실행되지 않았다.
    - 원인:input() 함수로 입력받은 값은 문자열 자료형인데, 처음에는 menu == 1, menu == 2처럼 정수형 숫자와 비교하였다. 그래서 사용자가 1을 입력해도 조건이 참으로 판정되지 않았다.
