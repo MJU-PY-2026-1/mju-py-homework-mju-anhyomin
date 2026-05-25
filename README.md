@@ -91,7 +91,8 @@ if-elif-else를 사용하여 BMI 등급 판정
    - 원인:사용자가 1번 메뉴를 먼저 선택하지 않으면 weight, height, goal_weight, information 값이 아직 만들어지지 않는다. 그런데 2번, 3번, 4번 기능에서는 이 값들을 사용하려 했기 때문에 오류가 발생할 수 있었다.
    - 해결:프로그램 시작 부분에 information = []을 먼저 작성하였다. 그리고 2번, 3번, 4번 메뉴 안에 len(information) == 0 조건을 넣어 저장된 정보가 없을 경우 “먼저 사용자 정보를 입력해주세요.”라고 출력한 뒤 continue로 다시 메뉴 선택 화면으로 돌아가도록 처리하였다.
 ### **📁 증빙 자료:**
-  * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)<img width="1438" height="1178" alt="KakaoTalk_20260526_001401212" src="https://github.com/user-attachments/assets/03c8cf02-d12c-4e00-aa5f-85a073fe402c" />
+  * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)[ai협업3차.pdf](https://github.com/user-attachments/files/28227796/ai.3.pdf)
+[3차과제결과.pdf](https://github.com/user-attachments/files/28227828/3.pdf)
 
   * [3차과제_실행결과.jpg]
 <br>
