@@ -21,7 +21,7 @@ if menu ==1:
   print(f"몸무게 : {weight}kg")
   print(f"목표 체중 : {goal_weight}kg")
   information=[name,weight,height,goal_weight]
-if menu ==2:
+elif menu ==2:
    bmi = weight / (height_meter**2)
   if bmi >=25:
     print(f"bmi지수 : {bmi}. 비만입니다.")
@@ -31,7 +31,7 @@ if menu ==2:
     print(f"bmi지수 : {bmi}. 정상입니다.")
   else:
     print(f"bmi지수 : {bmi}. 저체중입니다.")
-if menu ==3:
+elif menu ==3:
   dif = weight-goal_weight
   if dif > 0:
     print(f"목표 체중까지 {dif}kg 감량이 필요합니다")
@@ -39,8 +39,15 @@ if menu ==3:
     print(f"목표 체중보다 {dif}kg 적습니다")
   else:
     print("현재 목표 체중과 동일합니다")
-if menu ==4:
+elif menu ==4:
   print("--------저장된 정보--------")
-  print(f"이름 : {name}님")
-  print(f"키 : {height}cm")
-  print(f"몸무게 {weight}kg")
+  print(f"이름 : {information[0]}님")
+  print(f"키 : {information[2]}cm")
+  print(f"몸무게 : {information[1]}kg")
+  print(f"목표 체중 : {information[3]}kg")
+elif menu ==5:
+  print("프로그램을 종료합니다")
+  break
+else:
+  print("잘못된 접근입니다, 다시 선택해주세요")
+  continue
