@@ -91,7 +91,7 @@ if-elif-else를 사용하여 BMI 등급 판정
    - 해결:프로그램 시작 부분에 information = []을 먼저 작성하였다. 그리고 2번, 3번, 4번 메뉴 안에 len(information) == 0 조건을 넣어 저장된 정보가 없을 경우 “먼저 사용자 정보를 입력해주세요.”라고 출력한 뒤 continue로 다시 메뉴 선택 화면으로 돌아가도록 처리하였다.
 ### **📁 증빙 자료:**
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)[ai협업3차.pdf](https://github.com/user-attachments/files/28227796/ai.3.pdf)
-[3차과제결과.pdf](https://github.com/user-attachments/files/28227828/3.pdf)
+<img width="992" height="1566" alt="화면 캡처 2026-05-26 003155" src="https://github.com/user-attachments/assets/7e0b17ed-7be0-4564-a90c-f2388de5137b" />
 
   * [3차과제_실행결과.jpg]
 <br>
