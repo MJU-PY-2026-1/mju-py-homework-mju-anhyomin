@@ -61,6 +61,7 @@ while True:
     print(f"키 : {information[2]}cm")
     print(f"몸무게 : {information[1]}kg")
     print(f"목표 체중 : {information[3]}kg")
+    print(f"bmi지수 : {bmi}")
   elif menu =="5":
     print("프로그램을 종료합니다")
     break
