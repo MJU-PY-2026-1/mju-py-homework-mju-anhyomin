@@ -1,5 +1,4 @@
-[결과.pdf](https://github.com/user-attachments/files/28880420/default.pdf)
-[Uploading 결과.pdf…]()
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MiVO5zfB)
 # 🐍 [2026-01] 나만의 파이썬 소프트웨어 개발 프로젝트
 
@@ -120,5 +119,5 @@ if-elif-else를 사용하여 BMI 등급 판정
      
 ### **📁 증빙 자료:**
   * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)[ai협업.pdf](https://github.com/user-attachments/files/28880355/ai.pdf)
-  * [4차과제_실행결과.jpg]
+  * [4차과제_실행결과.jpg][결과.pdf](https://github.com/user-attachments/files/28880420/default.pdf)
 <br>
