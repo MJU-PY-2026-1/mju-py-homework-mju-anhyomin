@@ -102,7 +102,7 @@ if-elif-else를 사용하여 BMI 등급 판정
     
 ### **🤖 AI 파트너십 과정**
  1. **내용 1**
-    * **프롬프트 요약:**  [ai협업.pdf](https://github.com/user-attachments/files/28880355/ai.pdf)
+    * **프롬프트 요약:**  
     * **적용 내용:** AI는 과제 조건에 맞게 프로그램을 여러 개의 함수로 나누는 방향을 제안하였다. 메뉴 출력, BMI 계산, BMI 판정, 사용자 정보 입력, 목표 체중 차이 확인, 저장된 정보 출력 기능을 각각 함수로 분리하도록 안내하였다. 또한 여러 명의 사용자 정보를 저장할 수 있도록 users 리스트를 사용하고, 각 사용자 정보를 리스트 형태로 저장하는 2차원 리스트 구조를 적용하였다
     
 ### **🛠️ Troubleshooting & 기술 회고:**
@@ -117,6 +117,6 @@ if-elif-else를 사용하여 BMI 등급 판정
 해결: BMI 계산식을 calculate_bmi() 함수로 따로 분리하였다. 이후 BMI가 필요한 기능에서는 calculate_bmi(weight, height) 함수를 호출하여 값을 구하도록 수정하였다.
      
 ### **📁 증빙 자료:**
-  * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)[ai협업.pdf](https://github.com/user-attachments/files/28880355/ai.pdf)
   * [4차과제_실행결과.jpg]
 <br>
